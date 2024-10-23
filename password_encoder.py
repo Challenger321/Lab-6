@@ -1,6 +1,4 @@
 # Cade's lab
-# password_encoder.py
-# Author: Your Name
 
 def encode(password):
     encoded = ''.join(str((int(digit) + 3) % 10) for digit in password)
