@@ -4,6 +4,7 @@ def encode(password):
     encoded = ''.join(str((int(digit) + 3) % 10) for digit in password)
     return encoded
 
+#Decoder by @Kennith
 def decode(password):
     decoded = ""
     while password != "":
